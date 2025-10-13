@@ -18,8 +18,12 @@ depends = ["alias"]
 [hyprland.files]
 "hypr/hyprland.conf" = "~/.config/hypr/hyprland.conf"
 
+[obsidian]
+[obsidian.files]
+"obsidian/user-flags.conf" = "~/.config/obsidian/user-flags.conf"
+
 [default]
-depends = ["bash", "zsh", "hyprland"]
+depends = ["bash", "zsh", "hyprland", "obsidian"]
 
 [settings]
 default_target_type = "automatic"
