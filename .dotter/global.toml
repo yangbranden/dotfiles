@@ -30,7 +30,7 @@ depends = ["alias"]
 "obsidian/user-flags.conf" = "~/.config/obsidian/user-flags.conf"
 
 [default]
-depends = ["bash", "zsh", "hypr", "obsidian"]
+depends = ["bash", "zsh", "hypr", "waybar", "obsidian"]
 
 [settings]
 default_target_type = "automatic"
