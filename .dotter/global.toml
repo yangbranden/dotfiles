@@ -14,16 +14,23 @@ depends = ["alias"]
 [zsh.files]
 "zsh/zshrc" = "~/.zshrc"
 
-[hyprland]
-[hyprland.files]
+[hypr]
+[hypr.files]
 "hypr/hyprland.conf" = "~/.config/hypr/hyprland.conf"
+"hypr/hyprlock.conf" = "~/.config/hypr/hyprlock.conf"
+"hypr/hypridle.conf" = "~/.config/hypr/hypridle.conf"
+
+[waybar]
+[waybar.files]
+"waybar/config.jsonc" = "~/.config/waybar/config.jsonc"
+"waybar/style.css" = "~/.config/waybar/style.css"
 
 [obsidian]
 [obsidian.files]
 "obsidian/user-flags.conf" = "~/.config/obsidian/user-flags.conf"
 
 [default]
-depends = ["bash", "zsh", "hyprland", "obsidian"]
+depends = ["bash", "zsh", "hypr", "obsidian"]
 
 [settings]
 default_target_type = "automatic"
