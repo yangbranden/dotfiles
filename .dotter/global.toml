@@ -22,20 +22,24 @@ depends = ["alias"]
 "hypr/rice.conf" = "~/.config/hypr/rice.conf"
 "hypr/input.conf" = "~/.config/hypr/input.conf"
 "hypr/keybindings.conf" = "~/.config/hypr/keybindings.conf"
-"hypr/hyprlock.conf" = "~/.config/hypr/hyprlock.conf"
 "hypr/hypridle.conf" = "~/.config/hypr/hypridle.conf"
+"hypr/hyprlock.conf" = "~/.config/hypr/hyprlock.conf"
 
 [waybar]
 [waybar.files]
 "waybar/config.jsonc" = "~/.config/waybar/config.jsonc"
 "waybar/style.css" = "~/.config/waybar/style.css"
 
+[assets]
+[assets.files]
+assets = "~/.config/assets"
+
 [obsidian]
 [obsidian.files]
 "obsidian/user-flags.conf" = "~/.config/obsidian/user-flags.conf"
 
 [default]
-depends = ["bash", "zsh", "hypr", "waybar", "obsidian"]
+depends = ["bash", "zsh", "hypr", "waybar", "assets", "obsidian"]
 
 [settings]
 default_target_type = "automatic"
