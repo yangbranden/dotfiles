@@ -1,0 +1,25 @@
+[helpers]
+
+[alias]
+[alias.files]
+"aliasrc" = "~/.config/aliasrc"
+
+[bash]
+depends = ["alias"]
+[bash.files]
+"bash/bashrc" = "~/.bashrc"
+
+[zsh]
+depends = ["alias"]
+[zsh.files]
+"zsh/zshrc" = "~/.zshrc"
+
+[hyprland]
+[hyprland.files]
+"hypr/hyprland.conf" = "~/.config/hypr/hyprland.conf"
+
+[default]
+depends = ["bash", "zsh", "hyprland"]
+
+[settings]
+default_target_type = "automatic"
