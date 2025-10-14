@@ -10,7 +10,6 @@
     "text" : "Shutdown",
     "keybind" : "s"
 }
-
 {
     "label" : "suspend",
     "action" : "systemctl suspend-then-hibernate",

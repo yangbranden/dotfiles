@@ -43,8 +43,12 @@ depends = ["alias"]
 [obsidian.files]
 "obsidian/user-flags.conf" = "~/.config/obsidian/user-flags.conf"
 
+[git]
+[git.files]
+"git/gitconfig" = "~/.gitconfig"
+
 [default]
-depends = ["bash", "zsh", "hypr", "waybar", "assets", "obsidian"]
+depends = ["bash", "zsh", "hypr", "waybar", "assets", "obsidian", "git"]
 
 [settings]
 default_target_type = "automatic"
