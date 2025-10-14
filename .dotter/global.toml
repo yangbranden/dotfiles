@@ -34,6 +34,11 @@ depends = ["alias"]
 [assets.files]
 "assets" = "~/.config/assets"
 
+[wlogout]
+[wlogout.files]
+"wlogout/layout" = "~/.config/wlogout/layout"
+"wlogout/style.css" = "~/.config/wlogout/style.css"
+
 [obsidian]
 [obsidian.files]
 "obsidian/user-flags.conf" = "~/.config/obsidian/user-flags.conf"
