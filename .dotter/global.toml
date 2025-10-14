@@ -32,7 +32,7 @@ depends = ["alias"]
 
 [assets]
 [assets.files]
-assets = "~/.config/assets"
+"assets" = "~/.config/assets"
 
 [obsidian]
 [obsidian.files]
