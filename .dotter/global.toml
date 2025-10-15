@@ -14,6 +14,14 @@ depends = ["alias"]
 [zsh.files]
 "zsh/zshrc" = "~/.zshrc"
 
+[assets]
+[assets.files]
+"assets" = "~/.config/assets"
+
+[scripts]
+[scripts.files]
+"scripts" = "~/.config/scripts"
+
 [hypr]
 [hypr.files]
 "hypr/hyprland.conf" = "~/.config/hypr/hyprland.conf"
@@ -32,14 +40,6 @@ depends = ["alias"]
 "waybar/config.jsonc" = "~/.config/waybar/config.jsonc"
 "waybar/style.css" = "~/.config/waybar/style.css"
 
-[assets]
-[assets.files]
-"assets" = "~/.config/assets"
-
-[scripts]
-[scripts.files]
-"scripts" = "~/.config/scripts"
-
 [wlogout]
 [wlogout.files]
 "wlogout/layout" = "~/.config/wlogout/layout"
@@ -54,7 +54,7 @@ depends = ["alias"]
 "git/gitconfig" = "~/.gitconfig"
 
 [default]
-depends = ["bash", "zsh", "hypr", "waybar", "assets", "scripts", "obsidian", "git"]
+depends = ["bash", "zsh", "assets", "scripts", "hypr", "waybar", "wlogout", "obsidian", "git"]
 
 [settings]
 default_target_type = "automatic"
