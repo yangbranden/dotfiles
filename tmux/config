@@ -1,0 +1,15 @@
+# .tmux.conf file
+
+### Settings ###
+set-option -gw xterm-keys on
+
+### Shortcuts ###
+# Save pane to file
+TMUX_CAPTURE="~/tmux_$(date +%m-%dT%T).txt"
+bind-key M-s run "tmux capture-pane -S - && tmux save-buffer \"$TMUX_CAPTURE\" && tmux display-message \"Captured to $TMUX_CAPTURE\""
+
+# Save pane to custom name file
+bind-key C-s command-prompt -p "Filename for capture:" "capture-pane -S -; save-buffer \"%1\"; display-message \"Captured to %1\""
+
+# Join previous selected pane (opposite of !)
+bind-key @ join-pane -h -s !
