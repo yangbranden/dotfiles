@@ -55,7 +55,7 @@ depends = ["alias"]
 
 [tmux]
 [tmux.files]
-"tmux/config" = "~/.tmux.conf"
+"tmux/.tmux.conf" = "~/.tmux.conf"
 
 [default]
 depends = ["bash", "zsh", "assets", "scripts", "hypr", "waybar", "wlogout", "obsidian", "git", "tmux"]
