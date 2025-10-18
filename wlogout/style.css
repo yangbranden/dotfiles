@@ -31,7 +31,7 @@ button:focus {
 }
 
 #lock {
-    background-image: image(url("~/.config/assets/wlogout/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+    background-image: image(url("$HOME/.config/assets/wlogout/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
 }
 
 #lock:hover {

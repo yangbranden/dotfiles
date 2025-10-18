@@ -53,8 +53,12 @@ depends = ["alias"]
 [git.files]
 "git/gitconfig" = "~/.gitconfig"
 
+[tmux]
+[tmux.files]
+"tmux/config" = "~/.tmux.conf"
+
 [default]
-depends = ["bash", "zsh", "assets", "scripts", "hypr", "waybar", "wlogout", "obsidian", "git"]
+depends = ["bash", "zsh", "assets", "scripts", "hypr", "waybar", "wlogout", "obsidian", "git", "tmux"]
 
 [settings]
 default_target_type = "automatic"
