@@ -46,6 +46,10 @@ depends = ["alias"]
 "wlogout/style.css" = "~/.config/wlogout/style.css"
 "wlogout/icons" = "~/.config/wlogout/icons/"
 
+[dolphin]
+[dolphin.files]
+"dolphin/dolphinrc" = "~/.config/dolphinrc"
+
 [obsidian]
 [obsidian.files]
 "obsidian/user-flags.conf" = "~/.config/obsidian/user-flags.conf"
@@ -63,7 +67,7 @@ depends = ["alias"]
 "vim/vimrc" = "~/.vimrc"
 
 [default]
-depends = ["bash", "zsh", "assets", "scripts", "hypr", "waybar", "wlogout", "obsidian", "git", "tmux", "vim"]
+depends = ["bash", "zsh", "assets", "scripts", "hypr", "waybar", "wlogout", "dolphin", "obsidian", "git", "tmux", "vim"]
 
 [settings]
 default_target_type = "automatic"
