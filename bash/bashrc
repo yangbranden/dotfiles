@@ -9,3 +9,6 @@
 [ -f "$HOME/.config/aliasrc" ] && source "$HOME/.config/aliasrc" 
 
 PS1='[\u@\h \W]\$ '
+
+# Most important thing here
+fastfetch
