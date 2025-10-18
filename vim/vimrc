@@ -6,3 +6,9 @@ set shiftwidth=4 smarttab
 
 " Only use space chars instead of tabs
 set expandtab
+
+" Syntax highlighting
+syntax enable
+
+" Line numbers
+set number
