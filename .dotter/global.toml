@@ -16,11 +16,11 @@ depends = ["alias"]
 
 [assets]
 [assets.files]
-"assets" = "~/.config/assets"
+"assets/" = "~/.config/assets/"
 
 [scripts]
 [scripts.files]
-"scripts" = "~/.config/scripts"
+"scripts/" = "~/.config/scripts/"
 
 [hypr]
 [hypr.files]
@@ -44,6 +44,7 @@ depends = ["alias"]
 [wlogout.files]
 "wlogout/layout" = "~/.config/wlogout/layout"
 "wlogout/style.css" = "~/.config/wlogout/style.css"
+"wlogout/icons" = "~/.config/wlogout/icons/"
 
 [obsidian]
 [obsidian.files]
