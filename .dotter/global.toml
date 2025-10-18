@@ -55,10 +55,14 @@ depends = ["alias"]
 
 [tmux]
 [tmux.files]
-"tmux/.tmux.conf" = "~/.tmux.conf"
+"tmux/tmux.conf" = "~/.tmux.conf"
+
+[vim]
+[vim.files]
+"vim/vimrc" = "~/.vimrc"
 
 [default]
-depends = ["bash", "zsh", "assets", "scripts", "hypr", "waybar", "wlogout", "obsidian", "git", "tmux"]
+depends = ["bash", "zsh", "assets", "scripts", "hypr", "waybar", "wlogout", "obsidian", "git", "tmux", "vim"]
 
 [settings]
 default_target_type = "automatic"
