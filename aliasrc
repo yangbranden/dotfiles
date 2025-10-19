@@ -6,3 +6,6 @@ alias l="ls -CF"
 
 # Miscellaneous
 alias grep="grep --color=auto"
+
+# THE ONE PIECE IS REAL
+alias one_piece="wayvnc 192.168.99.2 -Ldebug"
