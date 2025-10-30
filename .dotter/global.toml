@@ -66,8 +66,12 @@ depends = ["alias"]
 [vim.files]
 "vim/vimrc" = "~/.vimrc"
 
+[pipewire]
+[pipewire.files]
+"pipewire/custom.conf" = "~/.config/pipewire/pipewire-pulse.conf.d/custom.conf"
+
 [default]
-depends = ["bash", "zsh", "assets", "scripts", "hypr", "waybar", "wlogout", "dolphin", "obsidian", "git", "tmux", "vim"]
+depends = ["bash", "zsh", "assets", "scripts", "hypr", "waybar", "wlogout", "dolphin", "obsidian", "git", "tmux", "vim", "pipewire"]
 
 [settings]
 default_target_type = "automatic"

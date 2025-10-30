@@ -12,3 +12,7 @@ syntax enable
 
 " Line numbers
 set number
+
+" Mouse interaction (yes I know, blasphemy, I'm sorry)
+set mouse=a
+
