@@ -1,5 +1,5 @@
 # dotfiles
 
-Arch Hyprland configuation/customization files.
+Arch Hyprland configuration/customization files.
 
 `dotter` to manage dotfiles.
