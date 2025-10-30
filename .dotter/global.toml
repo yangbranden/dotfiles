@@ -64,6 +64,7 @@ depends = ["alias"]
 
 [vim]
 [vim.files]
+"nvim/init.vim" = "~/.config/nvim/init.vim"
 "vim/vimrc" = "~/.vimrc"
 
 [pipewire]

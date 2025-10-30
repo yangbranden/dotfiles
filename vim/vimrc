@@ -1,18 +1,1 @@
-" .vimrc file
-
-" Tab-related things
-set tabstop=4
-set shiftwidth=4 smarttab
-
-" Only use space chars instead of tabs
-set expandtab
-
-" Syntax highlighting
-syntax enable
-
-" Line numbers
-set number
-
-" Mouse interaction (yes I know, blasphemy, I'm sorry)
-set mouse=a
-
+/home/ricefarmer/dotfiles/nvim/init.vim
