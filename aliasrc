@@ -4,6 +4,9 @@ alias ll="ls -alF"
 alias la="ls -aF"
 alias l="ls -CF"
 
+# xdg-open
+alias open="xdg-open"
+
 # Miscellaneous
 alias grep="grep --color=auto"
 
