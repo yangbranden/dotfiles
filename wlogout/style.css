@@ -31,49 +31,43 @@ button:focus {
 } */
 
 #exit {
-    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/back_white.png"), url("/usr/share/wlogout/icons/reboot.png"));
+    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/back.png"), url("/usr/share/wlogout/icons/reboot.png"));
 }
 
 #exit:hover {
-    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/back_black.png"), url("/usr/share/wlogout/icons/reboot.png"));
 }
 
 #lock {
-    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/lock_white.png"), url("/usr/share/wlogout/icons/lock.png"));
+    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/lock.png"), url("/usr/share/wlogout/icons/lock.png"));
 }
 
 #lock:hover {
-    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/lock_black.png"), url("/usr/share/wlogout/icons/lock.png"));
 }
 
 #logout {
-    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/logout_white.png"), url("/usr/share/wlogout/icons/logout.png"));
+    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/logout.png"), url("/usr/share/wlogout/icons/logout.png"));
 }
 
 #logout:hover {
-    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/logout_black.png"), url("/usr/share/wlogout/icons/logout.png"));
 }
 
 #suspend {
-    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/sleep_white.png"), url("/usr/share/wlogout/icons/suspend.png"));
+    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/sleep.png"), url("/usr/share/wlogout/icons/suspend.png"));
 }
 
 #suspend:hover {
-    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/sleep_black.png"), url("/usr/share/wlogout/icons/suspend.png"));
 }
 
 #reboot {
-    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/restart_white.png"), url("/usr/share/wlogout/icons/reboot.png"));
+    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/restart.png"), url("/usr/share/wlogout/icons/reboot.png"));
 }
 
 #reboot:hover {
-    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/restart_black.png"), url("/usr/share/wlogout/icons/reboot.png"));
 }
 
 #shutdown {
-    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/power_white.png"), url("/usr/share/wlogout/icons/shutdown.png"));
+    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/power.png"), url("/usr/share/wlogout/icons/shutdown.png"));
 }
 
 #shutdown:hover {
-    background-image: image(url("/home/ricefarmer/.config/wlogout/icons/power_black.png"), url("/usr/share/wlogout/icons/shutdown.png")); 
 }

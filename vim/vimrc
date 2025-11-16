@@ -1,1 +1,20 @@
-/home/ricefarmer/dotfiles/nvim/init.vim
+" Vim config
+
+" Tab-related things
+set tabstop=4
+set shiftwidth=4 smarttab
+
+" Only use space chars instead of tabs
+set expandtab
+
+" Syntax highlighting
+syntax enable
+
+" Line numbers
+set number
+
+" Mouse interaction (yes I know, blasphemy, I'm sorry)
+set mouse=a
+
+" Clipboard
+set clipboard=unnamedplus

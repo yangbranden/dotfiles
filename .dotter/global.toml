@@ -2,74 +2,81 @@
 
 [alias]
 [alias.files]
-"aliasrc" = "~/.config/aliasrc"
+"aliasrc" = "$HOME/.config/aliasrc"
 
 [bash]
 depends = ["alias"]
 [bash.files]
-"bash/bashrc" = "~/.bashrc"
+"bash/bashrc" = "$HOME/.bashrc"
 
 [zsh]
 depends = ["alias"]
 [zsh.files]
-"zsh/zshrc" = "~/.zshrc"
+"zsh/zshrc" = "$HOME/.zshrc"
 
 [assets]
-[assets.files]
-"assets/" = "~/.config/assets/"
+[assets.files.assets]
+target = "$HOME/.config/assets/"
+type = "symbolic"
 
 [scripts]
 [scripts.files]
-"scripts/" = "~/.config/scripts/"
+"scripts/" = "$HOME/.config/scripts/"
 
 [hypr]
 [hypr.files]
-"hypr/hyprland.conf" = "~/.config/hypr/hyprland.conf"
-"hypr/autostart.conf" = "~/.config/hypr/autostart.conf"
-"hypr/env.conf" = "~/.config/hypr/env.conf"
-"hypr/rice.conf" = "~/.config/hypr/rice.conf"
-"hypr/monitors_sickle.conf" = "~/.config/hypr/monitors_sickle.conf"
-"hypr/monitors_reaper.conf" = "~/.config/hypr/monitors_reaper.conf"
-"hypr/input.conf" = "~/.config/hypr/input.conf"
-"hypr/keybindings.conf" = "~/.config/hypr/keybindings.conf"
-"hypr/hypridle.conf" = "~/.config/hypr/hypridle.conf"
-"hypr/hyprlock.conf" = "~/.config/hypr/hyprlock.conf"
+"hypr/hyprland.conf" = "$HOME/.config/hypr/hyprland.conf"
+"hypr/autostart.conf" = "$HOME/.config/hypr/autostart.conf"
+"hypr/env.conf" = "$HOME/.config/hypr/env.conf"
+"hypr/rice.conf" = "$HOME/.config/hypr/rice.conf"
+"hypr/monitors_sickle.conf" = "$HOME/.config/hypr/monitors_sickle.conf"
+"hypr/monitors_reaper.conf" = "$HOME/.config/hypr/monitors_reaper.conf"
+"hypr/input.conf" = "$HOME/.config/hypr/input.conf"
+"hypr/keybindings.conf" = "$HOME/.config/hypr/keybindings.conf"
+"hypr/hypridle.conf" = "$HOME/.config/hypr/hypridle.conf"
+"hypr/hyprlock.conf" = "$HOME/.config/hypr/hyprlock.conf"
 
 [waybar]
 [waybar.files]
-"waybar/config.jsonc" = "~/.config/waybar/config.jsonc"
-"waybar/style.css" = "~/.config/waybar/style.css"
+"waybar/config.jsonc" = "$HOME/.config/waybar/config.jsonc"
+"waybar/style.css" = "$HOME/.config/waybar/style.css"
 
 [wlogout]
 [wlogout.files]
-"wlogout/layout" = "~/.config/wlogout/layout"
-"wlogout/style.css" = "~/.config/wlogout/style.css"
-"wlogout/icons" = "~/.config/wlogout/icons/"
+"wlogout/layout" = "$HOME/.config/wlogout/layout"
+"wlogout/style.css" = "$HOME/.config/wlogout/style.css"
+"wlogout/icons/back.png" = { target = "$HOME/.config/wlogout/icons/back.png", type = "symbolic" }
+"wlogout/icons/lock.png" = { target = "$HOME/.config/wlogout/icons/lock.png", type = "symbolic" }
+"wlogout/icons/logout.png" = { target = "$HOME/.config/wlogout/icons/logout.png", type = "symbolic" }
+"wlogout/icons/power.png" = { target = "$HOME/.config/wlogout/icons/power.png", type = "symbolic" }
+"wlogout/icons/restart.png" = { target = "$HOME/.config/wlogout/icons/restart.png", type = "symbolic" }
+"wlogout/icons/sleep.png" = { target = "$HOME/.config/wlogout/icons/sleep.png", type = "symbolic" }
 
 [dolphin]
 [dolphin.files]
-"dolphin/dolphinrc" = "~/.config/dolphinrc"
+"dolphin/dolphinrc" = "$HOME/.config/dolphinrc"
 
 [obsidian]
 [obsidian.files]
-"obsidian/user-flags.conf" = "~/.config/obsidian/user-flags.conf"
+"obsidian/user-flags.conf" = "$HOME/.config/obsidian/user-flags.conf"
 
 [git]
 [git.files]
-"git/gitconfig" = "~/.gitconfig"
+"git/gitconfig" = "$HOME/.gitconfig"
 
 [tmux]
 [tmux.files]
-"tmux/tmux.conf" = "~/.tmux.conf"
+"tmux/tmux.conf" = "$HOME/.tmux.conf"
 
 [vim]
 [vim.files]
-"nvim/init.vim" = "~/.config/nvim/init.vim"
-"vim/vimrc" = "~/.vimrc"
+"nvim/init.lua" = "$HOME/.config/nvim/init.lua"
+"nvim/lua" = "$HOME/.config/nvim/lua/"
+"vim/vimrc" = "$HOME/.vimrc"
 
 [pipewire]
 [pipewire.files]
-"pipewire/custom.conf" = "~/.config/pipewire/pipewire-pulse.conf.d/custom.conf"
+"pipewire/custom.conf" = "$HOME/.config/pipewire/pipewire-pulse.conf.d/custom.conf"
 
 [default]
 depends = ["bash", "zsh", "assets", "scripts", "hypr", "waybar", "wlogout", "dolphin", "obsidian", "git", "tmux", "vim", "pipewire"]
