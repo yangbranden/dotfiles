@@ -26,8 +26,8 @@ type = "symbolic"
 [hypr]
 [hypr.files]
 "hypr/hyprland.conf" = "$HOME/.config/hypr/hyprland.conf"
-"hypr/autostart.conf" = "$HOME/.config/hypr/autostart.conf"
 "hypr/env.conf" = "$HOME/.config/hypr/env.conf"
+"hypr/autostart.conf" = "$HOME/.config/hypr/autostart.conf"
 "hypr/rice.conf" = "$HOME/.config/hypr/rice.conf"
 "hypr/monitors_sickle.conf" = "$HOME/.config/hypr/monitors_sickle.conf"
 "hypr/monitors_reaper.conf" = "$HOME/.config/hypr/monitors_reaper.conf"
@@ -35,6 +35,7 @@ type = "symbolic"
 "hypr/keybindings.conf" = "$HOME/.config/hypr/keybindings.conf"
 "hypr/hypridle.conf" = "$HOME/.config/hypr/hypridle.conf"
 "hypr/hyprlock.conf" = "$HOME/.config/hypr/hyprlock.conf"
+"hypr/colors.conf" = "$HOME/.config/hypr/colors.conf"
 
 [waybar]
 [waybar.files]
