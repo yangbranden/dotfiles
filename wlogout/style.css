@@ -1,17 +1,15 @@
 * {
     font-family: JetBrains Mono, Symbols Nerd Font;
     font-size: 24px;
-    transition-property: background-color;
-    /* transition-duration: 0.7s; */
 }
 
-/* window {
-    background-color: #11111b;
+window {
+    background-color: transparent;
     border-radius: 10px;
-} */
+}
 
 button {
-    background-color: #11111b;
+    background-color: rgb(30,30,60);
     border-style: solid;
     border-width: 2px;
     border-radius: 50px;
@@ -21,53 +19,33 @@ button {
     margin: 15px;
 }
 
-/* button:active,
+button:focus,
+button:active,
 button:hover {
-    background-color: #cdd6f4;
+    background-color: rgb(48,48,96);
 }
-
-button:focus {
-    background-color: #cdd6f4;
-} */
 
 #exit {
     background-image: image(url("/home/ricefarmer/.config/wlogout/icons/back.png"), url("/usr/share/wlogout/icons/reboot.png"));
-}
-
-#exit:hover {
 }
 
 #lock {
     background-image: image(url("/home/ricefarmer/.config/wlogout/icons/lock.png"), url("/usr/share/wlogout/icons/lock.png"));
 }
 
-#lock:hover {
-}
-
 #logout {
     background-image: image(url("/home/ricefarmer/.config/wlogout/icons/logout.png"), url("/usr/share/wlogout/icons/logout.png"));
-}
-
-#logout:hover {
 }
 
 #suspend {
     background-image: image(url("/home/ricefarmer/.config/wlogout/icons/sleep.png"), url("/usr/share/wlogout/icons/suspend.png"));
 }
 
-#suspend:hover {
-}
-
 #reboot {
     background-image: image(url("/home/ricefarmer/.config/wlogout/icons/restart.png"), url("/usr/share/wlogout/icons/reboot.png"));
-}
-
-#reboot:hover {
 }
 
 #shutdown {
     background-image: image(url("/home/ricefarmer/.config/wlogout/icons/power.png"), url("/usr/share/wlogout/icons/shutdown.png"));
 }
 
-#shutdown:hover {
-}
