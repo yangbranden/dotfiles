@@ -1,0 +1,16 @@
+brave-bin
+grimblast
+spotify
+hypridle
+hyprlock
+hyprpicker
+swww
+tofi
+wlogout
+xrdp
+xorgxrdp
+networkmanager-iwd
+nmap
+steam
+neovim
+neovim-symlinks
